@@ -43,11 +43,9 @@ Django
 5 - Entrar no endereço da API:
     5.1 - digitar o seguinte endereço no seu navegador "http://localhost:8000/api/v1/"
 6 - Realizar o login:
-    6.1 - Acessar o arquivo ".env" que pode ser encontrado na pasta raíz do repositório
-        6.1.1 - Essa atitude foi tomada por saber da importância dessa medida de segurança, mas foi feito o upload do arquivo para dar prosseguimento
-        6.1.2 - Logo no primeiro campo, é possível obter a senha de administrador
-    6.2 - Introduzir no campo de usuário "admin" e no campo da senha a informação obtida no ponto 6.1.2.
+    6.1 - "python manage.py createsuperuser --email admin@desafiofrexco.com --username admin"
+    6.2 - Introduzir no campo de usuário "admin" e no campo da senha a senha que você escolheu.
 7 - Acessar o endereço "http://localhost:8000/api/v1/users/"
-8 - A partir desse ponto já é possível consultar os dados da API
+8 - A partir desse ponto já é possível inserir/consultar os dados da API
 
 ```
