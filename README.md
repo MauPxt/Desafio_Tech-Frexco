@@ -35,15 +35,16 @@ Django
 ```sh
 1 - Clonar esse repositório através do git: "$ git clone https://github.com/MauPxt/desafio_tech-frexco"
 2 - Acessar a pasta do repositório: "$ cd desafio_tech-frexco"
-3 - Iniciar o servidor: "$ python manage.py runserver"
-4 - Entrar no endereço da API:
-    4.1 - digitar o seguinte endereço no seu navegador "http://localhost:8000/api/v1/"
-5 - Realizar o login:
-    5.1 - Acessar o arquivo ".env" que pode ser encontrado na pasta raíz do repositório
-        5.1.1 - Essa atitude foi tomada por medidas de segurança
-        5.1.2 - Logo no primeiro campo, é possível obter a senha de administrador
-    5.2 - Introduzir no campo de usuário "admin" e no campo da senha a informação obtida no ponto 5.1.2.
-6 - Acessar o endereço "http://localhost:8000/api/v1/users/"
-7 - A partir desse ponto já é possível consultar os dados da API
+3 - Instalar os requisitos: "pip install -r requirements.txt"
+4 - Iniciar o servidor: "$ python manage.py runserver"
+5 - Entrar no endereço da API:
+    5.1 - digitar o seguinte endereço no seu navegador "http://localhost:8000/api/v1/"
+6 - Realizar o login:
+    6.1 - Acessar o arquivo ".env" que pode ser encontrado na pasta raíz do repositório
+        6.1.1 - Essa atitude foi tomada por medidas de segurança
+        6.1.2 - Logo no primeiro campo, é possível obter a senha de administrador
+    6.2 - Introduzir no campo de usuário "admin" e no campo da senha a informação obtida no ponto 6.1.2.
+7 - Acessar o endereço "http://localhost:8000/api/v1/users/"
+8 - A partir desse ponto já é possível consultar os dados da API
 
 ```
